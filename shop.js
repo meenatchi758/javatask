@@ -3,11 +3,11 @@ let cartCount = document.getElementById("cartCount");
 let count = 0;
 
 const books = [
-    { title: "Flying Lights", author: "Charles", currentPrice: "140", image: "./images/seller1.jpg" },
-    { title: "Skyline", author: "Jane Doe", currentPrice: "112", image: "./images/seller2.jpg" },
-    { title: "Ocean Waves", author: "Mark Twain", currentPrice: "180", image: "./images/seller3.jpg" },
-    { title: "Silent Shadows", author: "Emily Carter", currentPrice: "153", image: "./images/seller4.jpg" },
-    { title: "Golden Horizon", author: "Michael Brown", currentPrice: "200", image: "./images/seller5.jpg" },
+    { title: "Flying Lights", author: "Charles", currentPrice: "140", image: "seller1.jpg" },
+    { title: "Skyline", author: "Jane Doe", currentPrice: "112", image: "seller2.jpg" },
+    { title: "Ocean Waves", author: "Mark Twain", currentPrice: "180", image: "seller3.jpg" },
+    { title: "Silent Shadows", author: "Emily Carter", currentPrice: "153", image: "seller4.jpg" },
+    { title: "Golden Horizon", author: "Michael Brown", currentPrice: "200", image: "seller5.jpg" },
 ];
 
 const productsContainer = document.getElementById("products");
