@@ -20,7 +20,7 @@ function renderProducts(productList) {
     productList.forEach(product => {
         const productHTML = `
             <div class="product">
-                <img src="./images/r3.jpg" alt="${product.name}">
+                <img src="r3.jpg" alt="${product.name}">
                 <h2>${product.name}</h2>
                 <p class="price">Rs. ${product.price}</p>
             </div>
