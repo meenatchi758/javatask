@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="discount.css">
+</head>
+
+<body>
+
+    <div class="checkout-container">
+        <h2>Discount method</h2>
+
+
+        <div class="order-summary">
+            <h3>Order Total:</h3>
+            <br>
+            <p><strong>Subtotal:</strong> $<span id="subtotal">120.50</span></p><br>
+            <p><strong>Discount:</strong> $<span id="discount">0.00</span></p><br>
+            <p><strong>Final Total:</strong> $<span id="final-total">120.50</span></p>
+        </div>
+
+<br>
+        <div class="discount-section">
+            <h3>Apply Discount Code</h3>
+            <input type="text" id="discount-code" placeholder="Enter discount code">
+            <button id="apply-discount">Apply</button>
+            <p id="discount-message"></p>
+        </div>
+
+
+        <button id="place-order">Place Order</button>
+    </div>
+
+    <script src="./discount.js"></script>
+</body>
+
+</html>

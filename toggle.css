@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #ddd;
+}
+
+
+.language-toggle {
+    margin-bottom: 20px;
+}
+
+
+.lang-btn {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+
+.lang-btn[data-lang="en"] {
+    background-color: #3498db;
+    color: white;
+}
+
+.lang-btn[data-lang="es"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.lang-btn[data-lang="fr"] {
+    background-color: #2ecc71;
+    color: white;
+}
+
+
+.lang-btn:hover {
+    opacity: 0.8;
+}
+
+
+h1,
+p {
+    color: #333;
+}
+p{
+    font-size: 20px;;
+}

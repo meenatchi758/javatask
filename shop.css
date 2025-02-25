@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 20px;
+}
+
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+
+.product {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#cartCount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e63946; 
+    background: #ffe5e5;
+    padding: 4px 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+.book-image {
+    width: 100px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+.book-original-price {
+    color: #777;
+    font-size: 14px;
+}
+
+.book-current-price {
+    color: #d9534f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-discount {
+    background-color: #28a745;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+.add-to-cart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+
+.cart {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+#cart-items li {
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+input[type="number"] {
+    width: 50px;
+    padding: 3px;
+    text-align: center;
+}
+.remove-btn {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: #d62828;
+}
